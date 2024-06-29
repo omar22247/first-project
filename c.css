@@ -1,0 +1,104 @@
+
+
+/*
+
+  Block
+
+  - Take Full Width If No Width
+  - Add Line Break
+  - Respect Padding, Margin, Width, Height
+
+  Inline
+
+  - Do Not Repsepct Width, Height
+  - Respect Padding And Margin [ Just Wight + Left ]
+  - Do Not Add Line Break
+  - Allow Elements Before And After It in The Same Line
+
+  Inline-Block
+
+  - Allow Elements Before And After It in The Same Line
+  - Respect Padding, Margin, Width, Height
+
+
+
+*/
+* {
+    margin: 0;
+  } 
+  div {
+    display: inline-block;
+   
+  }
+  div,
+  footer {
+    background-color: rgb(163, 176, 186);
+  }
+  ul {
+    list-style: none;
+    
+  }
+  li {
+    
+    display: inline-block;
+    margin-left: 24px;
+  }
+  a {
+    color: black;
+  text-decoration: none;
+  }
+  .nav {
+    width: 100%;
+    height: 70px;
+    margin: -9px 0px 0px 0px;
+  }
+  .navp {
+    width: 29%;
+    margin-left: 59%;
+    padding: 3px;
+  }
+  .fb {
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  .home-page,
+  .about-page,
+  .contact-page,
+  .por-page
+  {
+  font-size: 40px;
+    margin-top: 150px;
+    width: 22%;
+    margin-left: 39%;
+    display: inline-block;
+   text-align: center;
+   background-color: rgb(163, 176, 186);
+    border-radius: 5px;
+    border-style:solid;
+    border-color: black; 
+  }
+  body {
+  
+    background-color: blanchedalmond;
+  }
+  .footer {
+  
+    margin-top: 396px;
+  
+    display: block;
+  }
+   /* p {
+    display: inline-block;
+    font-size: larger;
+    text-align: center;
+  } */
+  .links { margin-left: 36%;
+    display: inline-block;
+    width: 24%;
+    display: inline-block;
+    text-align: center; padding: 0px;
+  }
+   .pp {
+    display: block;
+    text-align: center;
+   }
